@@ -1,0 +1,79 @@
+/*CONFIGURAÇÕES PADRÕES*/
+body,
+html {
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+
+.conteudo {
+    background-color: white;
+    padding: 50px 80px;
+    color: #777;
+    text-align: justify;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/*EFEITO PARALLAX*/
+.caixa1,
+.caixa2,
+.caixa3,
+.caixa4,
+.caixa5,
+.caixa6 {
+    position: relative;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.caixa1 {
+    background: url("imagens/imagem1.jpg") no-repeat center center fixed;
+
+}
+
+.caixa2 {
+    background: url("imagens/imagem2.jpg") no-repeat center center fixed;
+}
+
+.caixa3 {
+    background: url("imagens/imagem3.jpg") no-repeat center center fixed;
+}
+
+.caixa4 {
+    background: url("imagens/imagem4.jpg") no-repeat center center fixed;
+}
+
+.caixa5 {
+    background: url("imagens/imagem5.jpg") no-repeat center center fixed;
+}
+
+.caixa6 {
+    background: url("imagens/imagem6.jpg") no-repeat center center fixed;
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
